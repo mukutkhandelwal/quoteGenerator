@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ 
+}
+
+body {
+    background-image: url(images/books.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.container{
+    margin-left: 37%;
+    padding: 0;
+    height: 250px;
+    width:350px;
+   text-align: center;
+   margin-top: 30vh;
+   /* background-color: whitesmoke; */
+}
+.box{
+display: inline-block;
+}
+.header{
+    height: 25px;
+    width:350px;
+    /* display: inline-block; */
+    width:100%;
+    margin-bottom: 1em;
+   
+    color: white;
+    font-size: large;
+}
+
+.heading{
+    background-color: black;
+    display: inline-block;
+    padding: 5px;
+    border: solid 2px #fff ;
+    border-radius: 10px;
+    width:80%;
+    margin: auto;
+    margin-left: 15%;
+}
+.box{
+    background-color: white;
+    width :400px;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+    
+    
+}
+.quote-text{
+    
+margin-top: 5%;
+font-size: 1.5rem;
+line-height: 1.5;
+}
+.author{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: red;
+    letter-spacing: 0.1em;
+    margin-top: 3%;
+}
+.author:active{
+    background-color: cyan;
+}
+#gen-new-quote{
+    padding: 5px 5px;
+    margin: 1%;
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+}
