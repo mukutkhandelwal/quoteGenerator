@@ -3,7 +3,7 @@ let quote = document.querySelector('.quote-text');
 let genNewQuote = document.querySelector('#gen-new-quote');
 
 function fetchQuotes() {
-    const apiKey = 'ci+eCxxhpI9Fw5rqIDeJcQ==8aCe3ao3LO4WvS0x';
+    const apiKey = 'Your API Key';
     const apiUrl = 'https://api.api-ninjas.com/v1/quotes?category=happiness';
     const headers = new Headers({
       'X-Api-Key': apiKey
