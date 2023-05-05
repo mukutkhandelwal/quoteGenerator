@@ -1,6 +1,6 @@
 # quoteGenerator
 
-### ![Sample Image](/quoteGenerator/quotes_generator/images/img.png)
+### ![Sample Image](/quotes_generator/images/img.png)
 
 ### This is a very simple Quote generator project made using HTML,CSS and Vanilla JS
 
